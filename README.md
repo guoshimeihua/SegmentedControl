@@ -1,11 +1,11 @@
 # SegmentedControl
 
-# 求start
+### 求start
 
-# 预览 Preview
+## 预览 Preview
 ![image](https://github.com/guoshimeihua/SegmentedControl/blob/master/SwipeViewControllerTestDemo/record14.gif ) 
 
-# 用法 Usage
+## 用法 Usage
 ###### 创建四个UIViewController,从而方便以后对不同的页面进行扩展。
     NewsViewController *newsVC = [[NewsViewController alloc] init];
     HotNewsViewController *hotnewsVC = [[HotNewsViewController alloc] init];
