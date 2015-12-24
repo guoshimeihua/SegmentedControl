@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320C83A21C2C458D007D5980 /* record14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 320C83A11C2C458D007D5980 /* record14.gif */; };
 		32FB6AB91C298E9500151E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AB81C298E9500151E27 /* main.m */; };
 		32FB6ABC1C298E9500151E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6ABB1C298E9500151E27 /* AppDelegate.m */; };
 		32FB6ABF1C298E9500151E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6ABE1C298E9500151E27 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		32FB6AC71C298E9500151E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FB6AC51C298E9500151E27 /* LaunchScreen.storyboard */; };
 		32FB6AD21C298E9500151E27 /* SwipeViewControllerTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AD11C298E9500151E27 /* SwipeViewControllerTestDemoTests.m */; };
 		32FB6ADD1C298E9500151E27 /* SwipeViewControllerTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6ADC1C298E9500151E27 /* SwipeViewControllerTestDemoUITests.m */; };
+		32FB6AF11C298EFA00151E27 /* HorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AEC1C298EFA00151E27 /* HorizonalTableViewController.m */; };
+		32FB6AF21C298EFA00151E27 /* SwipableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AEE1C298EFA00151E27 /* SwipableViewController.m */; };
+		32FB6AF31C298EFA00151E27 /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AF01C298EFA00151E27 /* TitleBarView.m */; };
+		32FB6AF61C298F5F00151E27 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AF51C298F5F00151E27 /* UIColor+Util.m */; };
+		32FB6AF91C29920400151E27 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AF81C29920400151E27 /* NewsViewController.m */; };
+		32FB6AFC1C29921200151E27 /* HotNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AFB1C29921200151E27 /* HotNewsViewController.m */; };
+		32FB6AFF1C29921F00151E27 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6AFE1C29921F00151E27 /* BlogViewController.m */; };
+		32FB6B021C29924200151E27 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB6B011C29924200151E27 /* RecommendViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320C83A11C2C458D007D5980 /* record14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = record14.gif; sourceTree = "<group>"; };
 		32FB6AB41C298E9500151E27 /* SwipeViewControllerTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeViewControllerTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FB6AB81C298E9500151E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32FB6ABA1C298E9500151E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,22 @@
 		32FB6AD81C298E9500151E27 /* SwipeViewControllerTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeViewControllerTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FB6ADC1C298E9500151E27 /* SwipeViewControllerTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewControllerTestDemoUITests.m; sourceTree = "<group>"; };
 		32FB6ADE1C298E9500151E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FB6AEB1C298EFA00151E27 /* HorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalTableViewController.h; sourceTree = "<group>"; };
+		32FB6AEC1C298EFA00151E27 /* HorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalTableViewController.m; sourceTree = "<group>"; };
+		32FB6AED1C298EFA00151E27 /* SwipableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipableViewController.h; sourceTree = "<group>"; };
+		32FB6AEE1C298EFA00151E27 /* SwipableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipableViewController.m; sourceTree = "<group>"; };
+		32FB6AEF1C298EFA00151E27 /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		32FB6AF01C298EFA00151E27 /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
+		32FB6AF41C298F5E00151E27 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Util.h"; path = "../UIColor+Util.h"; sourceTree = "<group>"; };
+		32FB6AF51C298F5F00151E27 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Util.m"; path = "../UIColor+Util.m"; sourceTree = "<group>"; };
+		32FB6AF71C29920400151E27 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		32FB6AF81C29920400151E27 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		32FB6AFA1C29921200151E27 /* HotNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotNewsViewController.h; sourceTree = "<group>"; };
+		32FB6AFB1C29921200151E27 /* HotNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotNewsViewController.m; sourceTree = "<group>"; };
+		32FB6AFD1C29921F00151E27 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		32FB6AFE1C29921F00151E27 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		32FB6B001C29924200151E27 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		32FB6B011C29924200151E27 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +127,20 @@
 		32FB6AB61C298E9500151E27 /* SwipeViewControllerTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				320C83A11C2C458D007D5980 /* record14.gif */,
+				32FB6AEA1C298EFA00151E27 /* SwipeViewController */,
 				32FB6ABA1C298E9500151E27 /* AppDelegate.h */,
 				32FB6ABB1C298E9500151E27 /* AppDelegate.m */,
 				32FB6ABD1C298E9500151E27 /* ViewController.h */,
 				32FB6ABE1C298E9500151E27 /* ViewController.m */,
+				32FB6AF71C29920400151E27 /* NewsViewController.h */,
+				32FB6AF81C29920400151E27 /* NewsViewController.m */,
+				32FB6AFA1C29921200151E27 /* HotNewsViewController.h */,
+				32FB6AFB1C29921200151E27 /* HotNewsViewController.m */,
+				32FB6AFD1C29921F00151E27 /* BlogViewController.h */,
+				32FB6AFE1C29921F00151E27 /* BlogViewController.m */,
+				32FB6B001C29924200151E27 /* RecommendViewController.h */,
+				32FB6B011C29924200151E27 /* RecommendViewController.m */,
 				32FB6AC01C298E9500151E27 /* Main.storyboard */,
 				32FB6AC31C298E9500151E27 /* Assets.xcassets */,
 				32FB6AC51C298E9500151E27 /* LaunchScreen.storyboard */,
@@ -138,6 +174,21 @@
 				32FB6ADE1C298E9500151E27 /* Info.plist */,
 			);
 			path = SwipeViewControllerTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		32FB6AEA1C298EFA00151E27 /* SwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32FB6AF41C298F5E00151E27 /* UIColor+Util.h */,
+				32FB6AF51C298F5F00151E27 /* UIColor+Util.m */,
+				32FB6AEB1C298EFA00151E27 /* HorizonalTableViewController.h */,
+				32FB6AEC1C298EFA00151E27 /* HorizonalTableViewController.m */,
+				32FB6AED1C298EFA00151E27 /* SwipableViewController.h */,
+				32FB6AEE1C298EFA00151E27 /* SwipableViewController.m */,
+				32FB6AEF1C298EFA00151E27 /* TitleBarView.h */,
+				32FB6AF01C298EFA00151E27 /* TitleBarView.m */,
+			);
+			path = SwipeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320C83A21C2C458D007D5980 /* record14.gif in Resources */,
 				32FB6AC71C298E9500151E27 /* LaunchScreen.storyboard in Resources */,
 				32FB6AC41C298E9500151E27 /* Assets.xcassets in Resources */,
 				32FB6AC21C298E9500151E27 /* Main.storyboard in Resources */,
@@ -270,8 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FB6AF21C298EFA00151E27 /* SwipableViewController.m in Sources */,
 				32FB6ABF1C298E9500151E27 /* ViewController.m in Sources */,
+				32FB6AFF1C29921F00151E27 /* BlogViewController.m in Sources */,
 				32FB6ABC1C298E9500151E27 /* AppDelegate.m in Sources */,
+				32FB6AFC1C29921200151E27 /* HotNewsViewController.m in Sources */,
+				32FB6AF91C29920400151E27 /* NewsViewController.m in Sources */,
+				32FB6AF61C298F5F00151E27 /* UIColor+Util.m in Sources */,
+				32FB6AF31C298EFA00151E27 /* TitleBarView.m in Sources */,
+				32FB6AF11C298EFA00151E27 /* HorizonalTableViewController.m in Sources */,
+				32FB6B021C29924200151E27 /* RecommendViewController.m in Sources */,
 				32FB6AB91C298E9500151E27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +556,7 @@
 				32FB6AE31C298E9500151E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FB6AE41C298E9500151E27 /* Build configuration list for PBXNativeTarget "SwipeViewControllerTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				32FB6AE61C298E9500151E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FB6AE71C298E9500151E27 /* Build configuration list for PBXNativeTarget "SwipeViewControllerTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				32FB6AE91C298E9500151E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

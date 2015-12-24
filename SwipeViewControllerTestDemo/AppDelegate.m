@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SwipableViewController.h"
+#import "NewsViewController.h"
+#import "HotNewsViewController.h"
+#import "BlogViewController.h"
+#import "RecommendViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    NewsViewController *newsVC = [[NewsViewController alloc] init];
+    HotNewsViewController *hotnewsVC = [[HotNewsViewController alloc] init];
+    BlogViewController *blogVC = [[BlogViewController alloc] init];
+    RecommendViewController *recommendVC = [[RecommendViewController alloc] init];
+    
+    SwipableViewController *swipeViewController = [[SwipableViewController alloc] initWithTitle:@"综合" andSubTitles:@[@"资讯", @"热点", @"博客", @"推荐"] andControllers:@[newsVC, hotnewsVC, blogVC, recommendVC]   underTabbar:NO];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:swipeViewController];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 
